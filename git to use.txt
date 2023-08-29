@@ -1,0 +1,33 @@
+C:\Users\ASUS\Documents\tencent files\2906557480\filerecv\mobilefile\
+
+1.进入要管理的目录
+
+2.git init 初始化，即让git帮助我们管理当前文件夹
+
+3.git status 检测当前目录下文件的状态
+
+4.三种状态
+。红色：新增了文件、修改了原老文件 -》git add 文件名
+。绿色：git已经管理起来 -》git commit -m'描述信息'
+。生成版本
+
+5.查看生成的版本记录 git log
+
+6.git log
+git reset --hard 版本号 回滚至之前的版本
+
+7.git reflog
+git reset --hard 版本号 回滚至之后的版本
+
+8.git branch 查看分支
+
+9.git branch 分支名称 创建分支
+
+10.git checkout 分支名称
+
+11.git merge 要合并的分支（可能产生冲突）
+注意：切换后再合并
+
+12.git branch -d 分支名称 删除分支
+
+
